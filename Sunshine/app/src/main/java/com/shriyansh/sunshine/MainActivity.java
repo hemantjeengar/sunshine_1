@@ -66,6 +66,7 @@ public class MainActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            //Static forecast array for 12 days
             String forecastList[]={
                     "Today - Sunny  -  88 / 63",
                     "Monday 16 - Clear  -  45 / 48",
